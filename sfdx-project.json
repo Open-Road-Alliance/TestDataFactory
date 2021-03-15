@@ -2,10 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "TestDataFactory",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.NEXT"
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
+  "sourceApiVersion": "48.0",
+  "packageAliases": {
+    "TestDataFactory": "0Ho4T000000TN9TSAW",
+    "TestDataFactory@0.1.0-1": "04t4T000001ZFhIQAW",
+    "TestDataFactory@1.0.0-1": "04t4T000001ZFhNQAW"
+  }
 }
